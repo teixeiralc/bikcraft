@@ -75,3 +75,9 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 500px) {
+  .font-2-m {
+    font-size: .9rem;
+  }
+}
