@@ -7,6 +7,10 @@
   padding-bottom: 120px;
 }
 
+#insurance .insurance {
+  padding-top: 0;
+}
+
 .insurance h2 {
   margin-bottom: 60px;
 }

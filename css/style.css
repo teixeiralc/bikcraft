@@ -20,6 +20,9 @@
 
 /* Insurance */
 @import "./insurance/insurance.css";
+@import "./insurance/seguros.css";
+@import "./insurance/faq.css";
+@import "./insurance/seg-benefits.css";
 
 /* Terms and conditions */
 @import "./terms/terms.css";

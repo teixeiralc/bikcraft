@@ -1,0 +1,35 @@
+.seg-benefits-bg {
+  background-color: var(--cor-12);
+}
+
+.seg-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.seg-benefits h2 {
+  margin-bottom: 60px;
+}
+
+.seg-benefits ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.seg-benefits h3, .seg-benefits img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .seg-benefits ul {
+    gap: 30px;
+  }
+  .seg-benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .seg-benefits h2 {
+    margin-bottom: 40px;
+  }
+}
