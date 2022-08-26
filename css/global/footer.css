@@ -27,7 +27,7 @@
   background-color: var(--cor-11);
 }
 
-.footer-contact li {
+.footer-contact li, .footer-info li {
   margin-bottom: 16px;
 }
 

@@ -16,6 +16,25 @@
   background: var(--linear-hover);
 }
 
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url(../../img/icones/seta.svg);
+  transition: transform .2s;
+}
+
+.btn.seta:hover::after {
+  transform: translateX(4px);
+}
+
 .btn-2 {
   background-color: var(--cor-10);
   padding: 16px 32px;
@@ -41,6 +60,8 @@
   }
 }
 
+/* Link com underline */
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -58,4 +79,29 @@
 
 .link:hover {
   color: var(--cor-0);
+}
+
+
+/* Title */
+
+.title-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+
+.title p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .title p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }

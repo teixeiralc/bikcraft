@@ -16,6 +16,10 @@
 
 /* Bicycles */
 @import "./bicycles/bicycles-list.css";
+@import "./bicycles/bicycles.css";
 
 /* Insurance */
 @import "./insurance/insurance.css";
+
+/* Terms and conditions */
+@import "./terms/terms.css";
