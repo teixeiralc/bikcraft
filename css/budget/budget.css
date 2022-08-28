@@ -33,7 +33,7 @@
 
 .budget-product {
   border-radius: 5px 0 0 5px;
-  background: var(--cor-12);
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -108,7 +108,7 @@
 
 .budget-data {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .budget-content {
@@ -160,6 +160,7 @@
   }
   .budget-product {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
   .budget-data {
     border-radius: 0 0 5px 5px;
@@ -172,5 +173,8 @@
   }  
   .budget-details {
     grid-template-columns: 1fr;
+  }
+  .budget-data {
+    background: var(--cor-0);
   }
 }

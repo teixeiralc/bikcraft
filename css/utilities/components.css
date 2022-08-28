@@ -86,10 +86,14 @@
 
 /* Title */
 
+.title {
+  background: url("../../img/dec/top-right.svg") no-repeat top right;
+}
+
 .title-bg {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--cor-11);
+  background: var(--cor-11);
 }
 
 .title p {
