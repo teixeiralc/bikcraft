@@ -16,6 +16,6 @@ Para este projeto utilizei:
 ### Home - Desktop
 ![image](https://user-images.githubusercontent.com/110029473/187731363-b4c3e944-778e-4fca-9ad9-303eafc4feb7.png)
 
-## Autor
+## Meu Linkedin
 
 <a href="https://www.linkedin.com/in/lucascteixeira0/">Lucas C. Teixeira</a>
